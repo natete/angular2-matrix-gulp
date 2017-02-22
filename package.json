@@ -1,0 +1,31 @@
+{
+  "name": "angular2-matrix-gulp",
+  "version": "0.0.1",
+  "description": "A set of gulp tasks / scripts to perform common Angular 2 tasks￼Edit",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natete/angular2-matrix-gulp.git"
+  },
+  "keywords": [
+    "Angular2",
+    "gulp"
+  ],
+  "author": "natete",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/natete/angular2-matrix-gulp/issues"
+  },
+  "homepage": "https://github.com/natete/angular2-matrix-gulp#readme",
+  "devDependencies": {
+    "cheerio": "^0.22.0",
+    "formattor": "^0.0.2",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-require-tasks": "^1.0.5",
+    "gulp-util": "^3.0.8"
+  }
+}
+
