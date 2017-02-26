@@ -1,0 +1,9 @@
+<h1 i18n="App welcome|Show a positive message about the app">
+  Welcome to my awesome app
+</h1>
+
+<ng-container *ngFor="let lang of langs">
+  <button (click)="changeLanguage(lang)">Change to {{lang}}</button>
+</ng-container>
+<button (click)="changeLanguage('en')">Change to en</button>
+<button (click)="changeLanguage()">Change to default</button>
