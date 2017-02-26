@@ -17,6 +17,7 @@ module.exports = {
     let xi18nSpawn = spawn('ng', xi18nArgs);
 
     xi18nSpawn.stdout.on('data', (data) => utils.log(data.toString()));
+    xi18nSpawn.stderr.on('data', (data) => utils.log(data.toString()));
 
     xi18nSpawn.on('exit', () => {
 
